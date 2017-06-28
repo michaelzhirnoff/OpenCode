@@ -90,7 +90,7 @@ public class CalculatorWithOperationsPredecence {
         double element1 = 0;
         double element2 = 0;
         String temporaryString;
-        Deque<Double> stack = new ArrayDeque<Double>();
+        ArrayDeque<Double> stack = new ArrayDeque<Double>();
         StringTokenizer myTokenizer = new StringTokenizer(consoleInput);
         while (myTokenizer.hasMoreTokens()) {
             temporaryString = myTokenizer.nextToken().trim();
